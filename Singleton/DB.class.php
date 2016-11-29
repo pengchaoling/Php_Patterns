@@ -11,7 +11,7 @@ class DB{
 	private $link;
 	//私有的构造方法，防止类在外部被实例化
 	private function __construct(){
-			//如果没连接过		
+			//创建新连接
 			$this->link = new mysqli('localhost','root','','caiji','3306');
 			//数据库链接错误
 			if($this->link->connect_error){
