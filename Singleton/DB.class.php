@@ -1,7 +1,7 @@
 <?php
 /**
  * Author: Lying
- * Data: 2016-11-27
+ * Data: 2016-11-26
  * description: 单例模式数据库类
  */	
 class DB{
